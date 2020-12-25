@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebDriver" duration-ms="18019" started-at="2020-12-25T02:16:39Z" finished-at="2020-12-25T02:16:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18019" started-at="2020-12-25T02:16:39Z" finished-at="2020-12-25T02:16:57Z">
+      <class name="testNG.tc1">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testNG.tc1@28d25987]" name="launch" is-config="true" duration-ms="8974" started-at="2020-12-25T02:16:39Z" finished-at="2020-12-25T02:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verfiy()[pri:0, instance:testNG.tc1@28d25987]" name="verfiy" duration-ms="4279" started-at="2020-12-25T02:16:48Z" finished-at="2020-12-25T02:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiy -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testNG.tc1@28d25987]" name="close" is-config="true" duration-ms="4698" started-at="2020-12-25T02:16:53Z" finished-at="2020-12-25T02:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testNG.tc1 -->
+    </test> <!-- Test -->
+  </suite> <!-- WebDriver -->
+</testng-results>
