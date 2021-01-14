@@ -27,7 +27,7 @@ public class tc1 {
 	  public void verfiy() {
 		 
 		  driver.findElement(By.id("About Us")).click();
-		  driver.findElement(By.id("PID-ab2-pg"))..getText();
+		  driver.findElement(By.id("PID-ab2-pg")).getText();
 		  
 	  }
 	  @AfterMethod
