@@ -3,8 +3,10 @@ package testNG;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.phantomJSDriver;
+import org.openqa.selenium.phantomjs.phantomJSDriverService;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,9 +16,10 @@ public class tc1 {
 
 		@BeforeMethod
 		public void launch() {
-		  System.setProperty("webdriver.chrome.driver","chromedriver");
-		  driver = new ChromeDriver();
-		  driver.get("http://18.222.70.48:9090/website");
+		  //System.setProperty("webdriver.phantomjs.driver","chromedriver");
+		  System.setProperty("phantomjs.binary.path", "/usr/local/bin/phantomjs");
+		  driver = new PhantomJSDriver();
+		  driver.get("http://172.31.21.106:9090/website");
 		  driver.manage().window().maximize();
 		  
 		 
